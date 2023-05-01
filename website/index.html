@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo list | Leandro Silva | Trybe | T16-B</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header-container">
+    <div id="title-container">
+      <h1 id="title">Minha Lista de Tarefas</h1>
+    </div>
+    <div id="nav-container">
+      <nav id="nav">
+        <a class="link" href="https://leandrochs.github.io/" target="_blank">Portifólio</a> | 
+        <a class="link" href="https://www.linkedin.com/in/leandrosi/" target="_blank">Linkedin</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-container">
+    <div id="input-container">
+    <p id="funcionamento"><em>Clique duas vezes em um item para marcá-lo como completo</em></p>
+      <input id="texto-tarefa" type="text" placeholder="digite as tarefas">
+      <button id="criar-tarefa">Criar tarefa</button>
+    </div>
+    <div>
+      <ol id="lista-tarefas"></ol>
+    </div>
+    <div id="control-container">
+      <button class="controls" id="apaga-tudo" type="reset">Apaga tudo</button>
+      <button class="controls" id="remover-finalizados">Remover finalizados</button>
+      <button class="controls" id="remover-selecionado">Remover selecionado</button>
+      <button class="controls" id="salvar-tarefas">Salvar tarefas</button>
+      <button class="controls" id="mover-cima"> Subir tarefa </button>
+      <button class="controls" id="mover-baixo"> Descer tarefa </button>
+    </div>
+    <script src="script.js"></script>
+  </main>
+  <footer id="footer">
+    <div id="phrase">
+      <a href="https://github.com/leandrochs" target="_blank">
+        <img src="./giyhublogo.png" height="50">
+    </div>
+    <div id="signature">
+      <i>Leandro Chagas da Silva</i>
+    </div>
+  </footer>
+</body>
+</html>
